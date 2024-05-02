@@ -1,0 +1,26 @@
+﻿<Window x:Class="display_stats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dv="clr-namespace:System.Windows.Controls.DataVisualization;assembly=DotNetProjects.DataVisualization.Toolkit"
+        xmlns:dvc="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=DotNetProjects.DataVisualization.Toolkit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="data_textblock" HorizontalAlignment="Left" Margin="80,69,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="230" Width="370" FontSize="24"/>
+        <dvc:Chart Name="Time_spent" Margin="10,10,10,0" Background="BlanchedAlmond">
+
+            <dvc:ColumnSeries
+                Name="ColumGraph"
+                Title="Time Spent"
+                DependentValuePath="Time"
+                IndependentValuePath="Program"
+                IndependentValueBinding="{Binding Path=Key}"    
+                DependentValueBinding="{Binding Path=Value}"/>
+
+        </dvc:Chart>
+        
+
+    </Grid>
+</Window>
