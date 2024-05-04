@@ -1,5 +1,7 @@
 this was my final project submitted to CS50-2022
 
+***Note: you must have .net 7 installed to run the program***
+
 This project, called Time Tracker, is designed to help you understand how you spend your time on your computer. It does this by keeping track of the active windows that you use and storing that information in a dictionary. Time Tracker has two executables: "Time_Tracker.exe" and "Display_stats.exe
 
 I used C#, .NET framework, and the Visual Studio Integrated Development Environment (IDE).to Develop and Debug the program and i used CsvHelper to perform operations like loading the data from the file into the dictionary and updating the csv according to the dictionary
