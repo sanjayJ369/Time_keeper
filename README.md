@@ -6,7 +6,11 @@ This project, called Time Tracker, is designed to help you understand how you sp
 
 I used C#, .NET framework, and the Visual Studio Integrated Development Environment (IDE).to Develop and Debug the program and i used CsvHelper to perform operations like loading the data from the file into the dictionary and updating the csv according to the dictionary
 
+![Time_Tracker.exe](https://github.com/sanjayJ369/Time_keeper/assets/111266023/51efeb91-66f4-4054-9709-9ffba7bb9673)
+
 The "Time_Tracker.exe" executable runs in the background to track the active window that you're currently using. It does this every 10 seconds and stores the information in the dictionary. Every 5 minutes, the dictionary is converted into a CSV file so that the data can be stored and can be used by "Display_stas.exe" to display the graph. To make the most of Time Tracker, you can add the "Time_Tracker.exe" file to your startup programs. This will ensure that Time Tracker starts tracking your activity automatically whenever you turn on your computer.
+
+![Display_stats.exe](https://github.com/sanjayJ369/Time_keeper/assets/111266023/01df16ee-f756-4d19-b6c6-8fb6d03a3a48)
 
 "The "Display_stats.exe" executable allows you to view a graph of your time spent on different windows. The data is displayed in the form of a bar graph, with each bar representing the amount of time you've spent on a particular window. This can give you insights into how you're spending your time and help you identify areas where you might be able to improve your productivity. By analyzing the graph, you can see which windows you're using the most
 
